@@ -1,0 +1,19 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* HEADER */
+
+#logo {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+a {
+  color: black;
+}
