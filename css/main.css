@@ -1,5 +1,5 @@
-/* Fonts */
-
+/* INDEX HTML*/
+/* FONTS */
 * {
   font-family: "Playfair Display", serif;
 }
@@ -10,6 +10,13 @@ h2 {
   font-weight: 900;
   font-style: normal;
   font-size: 2.2rem;
+}
+
+h3,
+h4 {
+  font-family: "Titillium Web", serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 /* HEADER */
@@ -31,8 +38,24 @@ a {
 .tacoloco-img {
   width: 60%;
 }
+
+/* CONTACT PAGE */
 /* Contact me form, messagebox bigger */
 #messagebox {
   height: 200px;
   width: 300px;
+}
+/* ABOUT PAGE */
+/* Class from About.html,white space and font style for Education and Experience */
+.about-page p {
+  font-style: italic;
+  margin-bottom: 100px;
+}
+.about-page h4 {
+  margin-bottom: -15px;
+}
+.about-page h1 {
+  font-size: 4rem;
+}
+.about-page {
 }
