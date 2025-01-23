@@ -18,25 +18,67 @@ h4 {
   font-weight: 700;
   font-style: normal;
 }
+/* TEXT FOR FIRST PAGE */
+#name-first-page {
+  text-align: center;
+  font-size: 7rem;
+  margin-top: 0;
+}
+
+#projects-first-page {
+  text-align: center;
+  font-size: 5rem;
+}
+
+/* CATEGORY SECTION FIRST PAGE */
+
+.boxes {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+#green-box {
+  background: rgb(250, 147, 54);
+  padding: 17rem;
+}
+
+.category-container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  align-items: end;
+  grid-gap: 10px 10px;
+}
+
+figure {
+  margin-left: 3rem;
+}
+.project-img {
+  width: 100%;
+}
 
 /* HEADER */
+
+header {
+  display: flex;
+  align-items: center;
+}
 #my-name {
   font-weight: 600;
   font-size: 1.2rem;
 }
 
-ul {
+.unorded-list {
+  display: flex;
   list-style: none;
   padding-left: 0;
 }
 
-a {
-  color: black;
+.header {
+  margin-left: 6rem;
 }
 
-/* Img */
-.tacoloco-img {
-  width: 60%;
+a {
+  color: black;
 }
 
 /* CONTACT PAGE */
@@ -56,4 +98,13 @@ a {
 }
 .about-page h1 {
   font-size: 4rem;
+}
+
+/* COFFEE TABLE BOOK */
+.category-coffeebook {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.img-coffebook {
+  width: 100%;
 }
