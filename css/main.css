@@ -41,6 +41,7 @@ h4 {
   padding: 17rem;
 }
 
+/* ALL IMAGES */
 .category-container {
   display: grid;
   width: 100%;
@@ -70,7 +71,7 @@ header {
 .unorded-list {
   display: flex;
   list-style: none;
-  padding-left: 0;
+  padding-left: 55rem;
 }
 
 .header {
@@ -101,10 +102,31 @@ a {
 }
 
 /* COFFEE TABLE BOOK */
+
+#headline-coffeebook {
+  text-align: center;
+  font-size: 7rem;
+  margin-top: 5rem;
+}
 .category-coffeebook {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding: 1rem;
+  gap: 1rem;
 }
 .img-coffebook {
   width: 100%;
+}
+
+#text-coffeebook {
+  margin-left: 30rem;
+  margin-right: 30rem;
+}
+
+.textbox-coffebook {
+  display: flex;
+  grid-template-columns: 1fr;
 }
