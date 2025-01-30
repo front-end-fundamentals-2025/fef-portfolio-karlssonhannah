@@ -23,35 +23,35 @@ h4 {
 
 /* TEXT FOR FIRST PAGE */
 
-#logo {
-  width: 80%;
-  margin-left: 10rem;
-  margin-right: 10rem;
-  padding-top: 5rem;
-}
-#name-first-page {
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  font-size: 7rem;
-  margin-top: 0;
+}
+#logo {
+  width: 100%;
+  max-width: 800px;
+  height: 100%;
+  margin-top: 10rem;
 }
 
 #projects-first-page {
-  text-align: center;
   font-size: 5rem;
 }
 
-/* CATEGORY SECTION FIRST PAGE */
-
-.boxes {
-  display: grid;
-  grid-template-columns: 1fr;
+@media screen and (max-width: 520px) {
+  #logo {
+    display: flex;
+    margin-top: 2rem;
+  }
+  #projects-first-page {
+    font-size: 3rem;
+  }
 }
-#green-box {
-  background: rgb(250, 147, 54);
-  padding: 17rem;
-}
 
-/* ALL IMAGES */
+/* ALL IMAGES, WORK PAGE */
 .category-container {
   display: grid;
   grid-template-columns: repeat(2, 1f);
@@ -76,6 +76,7 @@ figure {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
 /* HEADER */
 
 header {
@@ -154,11 +155,27 @@ a {
 }
 
 #text-coffeebook {
-  margin-left: 30rem;
-  margin-right: 30rem;
+  font-size: 1rem;
+  text-align: justify;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .textbox-coffebook {
   display: flex;
   grid-template-columns: 1fr;
+}
+
+@media screen and (max-width: 780px) {
+  .category-coffeebook {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  #headline-coffeebook {
+    font-size: 4rem;
+  }
 }
