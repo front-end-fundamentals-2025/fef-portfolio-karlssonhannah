@@ -22,6 +22,13 @@ h4 {
 /* MAIN */
 
 /* TEXT FOR FIRST PAGE */
+
+#logo {
+  width: 80%;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  padding-top: 5rem;
+}
 #name-first-page {
   text-align: center;
   font-size: 7rem;
@@ -75,9 +82,8 @@ header {
   display: flex;
   align-items: center;
 }
-#my-name {
-  font-weight: 600;
-  font-size: 1.2rem;
+#logo-header {
+  width: 7%;
 }
 
 .unorded-list {
