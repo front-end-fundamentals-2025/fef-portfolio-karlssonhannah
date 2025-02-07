@@ -54,7 +54,7 @@ h4 {
 /* ALL IMAGES, WORK PAGE */
 .category-container {
   display: grid;
-  grid-template-columns: repeat(2, 1f);
+  grid-template-columns: repeat(2, 1fr);
   align-items: end;
   grid-gap: 10px 10px;
 }
@@ -78,7 +78,7 @@ figure {
 }
 
 .project-img:hover {
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 /* HEADER */
