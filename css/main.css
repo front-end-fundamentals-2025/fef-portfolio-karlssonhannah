@@ -65,6 +65,10 @@ figure {
 .project-img {
   width: 100%;
 }
+
+#hover-text {
+  position: absolute;
+}
 @media screen and (min-width: 520px) {
   .category-container {
     display: grid;
@@ -75,10 +79,6 @@ figure {
   .category-container {
     grid-template-columns: repeat(3, 1fr);
   }
-}
-
-.project-img:hover {
-  opacity: 0.8;
 }
 
 /* HEADER */
