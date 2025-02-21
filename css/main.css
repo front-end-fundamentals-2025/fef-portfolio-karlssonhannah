@@ -68,6 +68,12 @@ figure {
 
 #hover-text {
   position: absolute;
+  display: none;
+  font-size: 0.9rem;
+  max-width: 22rem;
+  background-color: rgb(255, 251, 245);
+  padding: 1.7rem;
+  margin-top: 23rem;
 }
 @media screen and (min-width: 520px) {
   .category-container {
